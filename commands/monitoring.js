@@ -1,4 +1,4 @@
-module.exports = async (bot,message,args,argsF) => {
+module.exports = async (bot,message) => {
 
     const {guild} = message;
 
