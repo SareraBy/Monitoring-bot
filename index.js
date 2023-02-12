@@ -1,8 +1,6 @@
 const { Client, GatewayIntentBits } = require('discord.js')
+const mySecret = 'MTAxNzE1NTcyMjcwMzgxODg5NA.GqDyH_._76d4oOl-yYelIgEv2CFVSDP9GXkLvHwPZMKN8';
 const gamedig = require('gamedig');
-require('dotenv').config();
-
-const mySecret = process.env.BOT_TOKEN;
 
 const client = new Client({
     intents: [
