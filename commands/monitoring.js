@@ -2,7 +2,6 @@ module.exports = async (bot,message) => {
 
     const {guild} = message;
 
-
     message.reply({
         embeds: [{
             title: guild.name,
