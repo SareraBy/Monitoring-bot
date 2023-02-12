@@ -1,2 +1,4 @@
-# monitoring-bot
-bot-for-monitoring_game_servers
+# Monitoring-bot
+
+База мониторинг бота 
+По IP/Port [UPD подключение]
