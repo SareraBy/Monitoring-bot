@@ -1,5 +1,5 @@
 const { Client, GatewayIntentBits } = require('discord.js')
-const mySecret = 'MTAxNzE1NTcyMjcwMzgxODg5NA.GqDyH_._76d4oOl-yYelIgEv2CFVSDP9GXkLvHwPZMKN8';
+const mySecret = '';
 const gamedig = require('gamedig');
 
 const client = new Client({
