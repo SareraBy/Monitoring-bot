@@ -24,4 +24,7 @@ client.on("ready", () => {
     setInterval(online, 50000)
 });
 
+
+
+
 client.login(mySecret)
