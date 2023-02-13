@@ -1,5 +1,7 @@
 const { Client, GatewayIntentBits } = require('discord.js')
-const mySecret = 'MTAxNzE1NTcyMjcwMzgxODg5NA.GqDyH_._76d4oOl-yYelIgEv2CFVSDP9GXkLvHwPZMKN8';
+
+const mySecret = `${process.env['TOKEN']}`;
+require("dotenv").config();
 const gamedig = require('gamedig');
 
 const client = new Client({
@@ -7,7 +9,7 @@ const client = new Client({
         GatewayIntentBits.Guilds,
     ]
 })
-
+console.log(mySecret)
 async function online() {
     gamedig.query({type: 'valheim', host: `62.122.215.164`, port: "9876", requestRules: true
     }).then((state) => {
@@ -24,4 +26,6 @@ client.on("ready", () => {
     setInterval(online, 50000)
 });
 
-client.login(mySecret)
+
+
+client.login('MTAxNzE1NTcyMjcwMzgxODg5NA.GhT2IR.XcvmE-NkXRoBXNjmii5Ux4Df_1q-8LXA1wNoH4')
