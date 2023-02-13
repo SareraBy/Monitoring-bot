@@ -14,7 +14,7 @@ const client = new Client({
 const gamedig = require('gamedig');
 
 async function online() {
-    gamedig.query({type: 'valheim', host: `62.122.215.164`, port: "9876", requestRules: true
+    gamedig.query({type: 'valheim', host: `ip`, port: "port", requestRules: true
     }).then((state) => {
         client.user.setActivity(`Онлайн: ${state.raw.numplayers}/${state.maxplayers}`, {type: 0});
     }).catch((error) => {
