@@ -1,6 +1,6 @@
 const { Client, GatewayIntentBits } = require('discord.js')
 
-let config = require('./token.json');
+let config = require('./config.json');
 let token = config.token;
 let prefix = config.prefix;
 
