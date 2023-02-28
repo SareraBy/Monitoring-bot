@@ -285,3 +285,11 @@
 | `xpandrally` | Xpand Rally
 | `zombiemaster` | Zombie Master | [Valve Protocol](#valve)
 | `zps`      | Zombie Panic: Source | [Valve Protocol](#valve)
+
+
+
+
+
+### <a name="valve"></a>Valve Protocol
+For many valve games, additional 'rules' may be fetched into the unstable `raw` field by passing the additional
+option: `requestRules: true`. Beware that this may increase query time.
